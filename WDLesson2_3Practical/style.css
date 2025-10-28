@@ -1,10 +1,10 @@
   
 /* Challenge 4: Change the radius of the borders of all images to 20px */
-.img {
+img{
      border-radius: 20px;
 }
 /* Challenge 5: Change the width of the image with an id of "banner" to 95% */
-#banner {
+#banner{
     width: 95%;
 }
 /* Challenge 6: For the HTML element with an id of "bannerSeparator" change the,
@@ -18,15 +18,15 @@
     background-image: linear-gradient(to right, blue, white);
 }
 /* Challenge 7: For the HTML element with an id of "logo_container" align the text in the center */
-#logo_Container{
+#logo_container{
     text-align: center;
 }
 /* Challenge 8: Change the height of all images with a class of "logo" to 200px*/
-.img{
+img{
     height: 200px;
 }
 /* Challenge 9: Change the padding to 40px for all divs */
-.div{
+div{
     padding: 40px;
 }
 /* Challenge 10: For the HTML element with an id of "main_container" change 
