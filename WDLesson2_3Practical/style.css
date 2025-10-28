@@ -22,7 +22,7 @@ img{
     text-align: center;
 }
 /* Challenge 8: Change the height of all images with a class of "logo" to 200px*/
-img{
+#logo{
     height: 200px;
 }
 /* Challenge 9: Change the padding to 40px for all divs */
