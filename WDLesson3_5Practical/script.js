@@ -4,14 +4,19 @@
       3) Display the results in the appropriate element
 */
 function recArea(){
-
+      let n1 = parseFloat(document.getElementById("l").value);
+      let n2 = parseFloat(document.getElementById("w").value);
+      let area = n1 * n2;
+      let op = document.getElementById("output").innerHTML = "The area of the rectangle is " + area;
 }
 
 function recPerimeter(){
+      let n1 = parseFloat(document.getElementById("l").value);
+      let n2 = parseFloat(document.getElementById("w").value);
+      let perimeter = 2 * (n1 + n2);
+      let op = document.getElementById("output").innerHTML = "The perimeter of the rectangle is " + perimeter;
 
 }
-
-
 /* Challenge 4: Complete the area and circumference functions below for the circle.  Guidelines,
       1) Create variables and retrieve the information from the text inputs you created in Challenge 3.
       2) Perform the necessary calculations
@@ -20,11 +25,17 @@ function recPerimeter(){
 let pi = 3.1415926;
 
 function cirArea(){
-
+      let n3 = parseFloat(document.getElementById("b").value);
+      let n4 = parseFloat(document.getElementById("h").value);
+      let area = pi * n3 * n4;
+      let op = document.getElementById("output").innerHTML = "The area of the circle is " + area;
 }
-
+ 
 function cirPerimeter(){
-
+      let n3 = parseFloat(document.getElementById("b").value);
+      let n4 = parseFloat(document.getElementById("h").value);
+      let circumference = 2 * pi * n3;
+      let op = document.getElementById("output").innerHTML = "The perimeter of the circle is " + circumference;
 }
 
 /* Challenge Bonus: Complete the area and perimeter functions below for the triangle.  Guidelines,
@@ -34,7 +45,6 @@ function cirPerimeter(){
 */
 function triArea(){
 
-}
 
 function triPerimeter(){
 
