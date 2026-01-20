@@ -25,16 +25,15 @@ function recPerimeter(){
 let pi = 3.1415926;
 
 function cirArea(){
-      let n3 = parseFloat(document.getElementById("b").value);
-      let n4 = parseFloat(document.getElementById("h").value);
-      let area = pi * n3 * n4;
-      let op = document.getElementById("output").innerHTML = "The area of the circle is " + area;
+      let r = parseFloat(document.getElementById("rad").value);
+      let op = parseFloat(document.getElementById("output").value);
+      let A = pi * (r**2);
+      let op = document.getElementById("output").innerHTML = "The area of the circle is " + A;
 }
  
 function cirPerimeter(){
-      let n3 = parseFloat(document.getElementById("b").value);
-      let n4 = parseFloat(document.getElementById("h").value);
-      let circumference = 2 * pi * n3;
+      let r = parseFloat(document.getElementById("rad").value);
+      let circumference = 2 * pi * r;
       let op = document.getElementById("output").innerHTML = "The perimeter of the circle is " + circumference;
 }
 
