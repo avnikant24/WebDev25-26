@@ -43,7 +43,7 @@ function balance2(){
         let p = parseFloat(document.getElementById("p").value);
         let r = parseFloat(document.getElementById("r").value) / 100;
         let t = parseInt(document.getElementById("t").value);
-        let n = parseInt(document.getElementById("n"),value);
+        let n = parseInt(document.getElementById("n").value);
         build += `<table><tr><th>Year</th><th>Balance</th></tr>`;
         for (let t = 1; t <= 10; t++){
                 let A = p * (1 + r/n)**(n*t);
