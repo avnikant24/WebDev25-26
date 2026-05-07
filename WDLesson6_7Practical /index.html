@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>WD_6.7</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="fillDropDown.js"></script>
+    <script src="script.js"></script>
+   </head>
+  <body onload="init()">
+    <div id="banner" class="container center">
+      <div style="text-align:center">
+          <h1>Motor Vehicle Collsions</h1>
+          <h2>Filtering MVC Information</h2>
+      </div>
+    </div>
+    <div class="container subbanner">
+      <div>
+        <a class="button" href="https://jsoneditoronline.org/"> JSON Editor Online</a>
+       </div>
+    </div>
+    <div class="container">
+      <div id="leftPanel">
+        <div class="card">
+          <h3>By Borough </h3>
+          <span class="highlight"></span>
+        
+          <input type="text" id="borough" placeholder="Enter borough">
+          <hr></hr>
+          <a class="button" onclick="filterByBorough()"> Search </a>
+        </div>
+        <div class="card">
+          <h3>By Street Name</h3>
+          <span class="highlight"></span>
+          <input type="text" id="borough" placeholder="Enter street name">
+
+          
+          <hr></hr>
+          <a class="button" onclick="filterByStreet()"> Search </a>
+        </div>
+        
+        <div class = "card2">
+        <h3>By Vehicle Type</h3>
+          <span class="highlight"></span>
+          <input type="text" id="borough" placeholder="Enter vehicle name">
+            
+          
+          <hr></hr>
+          <a class="button" onclick="filterByVehicle()"> Search </a>
+        </div>
+
+      </div>
+      <div class="card" id="rightPanel">
+        <h1>Output</h1>
+        <div id="result" class="container"></div>
+        <div id="output" class="container"></div>
+      </div>
+    </div>
+    <script>
+
+    </script>
+    <div id="footer" class="container center">
+      <h3>Lesson 6.7 Demonstration</h3>
+    </div>  
+  </body>
+</html>
